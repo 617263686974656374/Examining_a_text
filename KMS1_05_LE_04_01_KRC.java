@@ -35,22 +35,3 @@ public class KMS1_05_LE_04_01_KRC {
         System.out.println(STR."The sentence contains:\nVowels: \{vowels}\nConsonants: \{consonants}\nPunctuatinons Marks: \{punctuationMarks}\nSpaces: \{space}");
     }
 }
-//     *My first Idea
-//        System.out.print("Enter a sentence: ");
-//        String user = entry.nextLine().toLowerCase();
-//        for (int i = 0; i < user.length(); i++){
-//            char oneChar = user.charAt(i);
-//            for (char c : vokale) {
-//                for (char punc : punctuation){
-//                    if (oneChar == c) {
-//                        vowels++;
-//                    } else if (oneChar == punc ) {
-//                        punctuationMarks++;
-//                    } else if (oneChar == ' ') {
-//                        space++;
-//                    }else {
-//                        consonants++;
-//                    }
-//                }
-//            }
-//        }
