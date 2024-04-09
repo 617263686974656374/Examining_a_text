@@ -21,7 +21,7 @@ public class KMS1_05_LE_04_01_KRC {
         for (int i = 0; i < user.length(); i++){
             char oneChar = user.charAt(i);
 
-            // This logic helped me Chat GPT my logic for this section is down *
+            
             if (new String(vokale).indexOf(oneChar) >=0){
                 vowels++;
             } else if (new String(punctuation).indexOf(oneChar) >=0) {
